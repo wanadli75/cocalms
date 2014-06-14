@@ -22,9 +22,9 @@
  * charset to use in the db connection
  */
 $cfg['db_type'] = 'mysql';
-$cfg['db_host'] = 'localhost';
-$cfg['db_user'] = 'root';
-$cfg['db_pass'] = '';
+$cfg['db_host'] = 'tunnel.pagodabox.com:3306';
+$cfg['db_user'] = 'joan';
+$cfg['db_pass'] = 'DBCFcSaq';
 $cfg['db_name'] = 'forma12';
 $cfg['db_charset'] = 'utf8';
 
