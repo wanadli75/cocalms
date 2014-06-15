@@ -1,2 +1,12 @@
-web1:
-	php_version: 5.4.14
+web1: #component type & number
+  name: cocalms            #component settings
+  shared_writable_dirs:
+    - var/www/files
+  document_root: app
+  php_version: 5.4.14
+  php_extensions:
+    - mysql
+     
+db1: #component type & number
+  name: forma12            #component settings
+  type: mysql
